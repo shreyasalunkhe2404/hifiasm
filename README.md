@@ -1,2 +1,3 @@
 # hifiasm
-Genome Assembly
+Genome Assembly Tool
+
