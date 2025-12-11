@@ -1,12 +1,11 @@
 # Hifiasm
 Genome Assembly Tool
 
-Downloading software using conda
+## Downloading software using conda
 
+```bash
 conda create -n hifiasm
-
 conda activate hifiasm
-
 conda install -c bioconda hifiasm
 
 To assemble a PacBio genome
@@ -17,6 +16,6 @@ To assemble the ONT genome
 
 hifiasm -o output.asm --ont -t 30 /path/to/.fastq  
 
-# To remove haplotigs
+To remove haplotigs
 
 hifiasm -o output.asm --ont --nhap no_of_individuals_used-t 30 /path/to/.fastq 
